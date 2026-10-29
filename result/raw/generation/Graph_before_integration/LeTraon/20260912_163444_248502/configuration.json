@@ -1,0 +1,2052 @@
+{
+  "created_at": "2026-09-12T16:34:44.248615+08:00",
+  "dataset_root": "/root/CITO/LeTraon_Remote/Dataset/Ding",
+  "projects": [
+    "ANT",
+    "DNS",
+    "Email-spl",
+    "JHotDraw",
+    "jboss",
+    "jmeter",
+    "xml_security",
+    "xstream_spl"
+  ],
+  "runs": 30,
+  "modes": [
+    "ding-compatible"
+  ],
+  "algorithms": [
+    "le-traon"
+  ],
+  "master_seed": null,
+  "single_run_seed": null,
+  "seed_source": "os-random",
+  "le_traon_randomized_dfs": false,
+  "le_traon_trace": false,
+  "python_version": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "python_executable": "/root/miniconda3/bin/python3",
+  "processor": "x86_64",
+  "logical_cpu_count": 128,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "completed": true,
+  "execution_mode": "sequential fresh Python process per repetition",
+  "memory_measurement": {
+    "enabled": true,
+    "primary_metric": "PeakRSSMiB",
+    "unit": "MiB (1048576 bytes)",
+    "definition": "OS-reported worker-process resident/working-set high-water mark from worker startup through result preparation and measurement readout; includes interpreter, imports, one project input, warmup, algorithm and metric evaluation; not exclusive algorithm memory",
+    "excluded": "parent orchestrator, final result transfer and CSV/summary writing, worker shutdown after readout",
+    "linux_source": "/proc/self/status VmHWM (KiB / 1024)",
+    "windows_source": "GetProcessMemoryInfo PeakWorkingSetSize (bytes / 1048576)",
+    "sampling": "OS high-water counter; no periodic RSS sampling or tracemalloc",
+    "warmup_runs_per_worker": 1,
+    "warmup_rng": "same recorded seed in separate RNG; measured RNG recreated from recorded seed",
+    "worker_timeout_seconds": 300,
+    "worker_python_hash_seed": "0"
+  },
+  "runtime_scope": "generation, including graph construction and internal order checks; excludes input loading, metric evaluation and file output",
+  "runtime_excluded": "worker startup/shutdown, input loading, warmup, memory readout, external metric evaluation, interprocess transfer and file output",
+  "input_format": "typed-ding",
+  "graph_scope": "dependency records included by the selected mode",
+  "cost_scope": "sum of original Couple_value contributions for dependency records included by the selected mode; weights are not recalculated",
+  "coupling_scope": null,
+  "graph_inventory": {
+    "ANT": {
+      "n_classes": 25,
+      "dependency_pairs": 105,
+      "zero_cost_dependencies": 17,
+      "missing_type_pairs_zero_based": []
+    },
+    "DNS": {
+      "n_classes": 61,
+      "dependency_pairs": 460,
+      "zero_cost_dependencies": 50,
+      "missing_type_pairs_zero_based": []
+    },
+    "Email-spl": {
+      "n_classes": 39,
+      "dependency_pairs": 63,
+      "zero_cost_dependencies": 0,
+      "missing_type_pairs_zero_based": []
+    },
+    "JHotDraw": {
+      "n_classes": 411,
+      "dependency_pairs": 1617,
+      "zero_cost_dependencies": 454,
+      "missing_type_pairs_zero_based": []
+    },
+    "jboss": {
+      "n_classes": 91,
+      "dependency_pairs": 108,
+      "zero_cost_dependencies": 0,
+      "missing_type_pairs_zero_based": []
+    },
+    "jmeter": {
+      "n_classes": 372,
+      "dependency_pairs": 1337,
+      "zero_cost_dependencies": 7,
+      "missing_type_pairs_zero_based": []
+    },
+    "xml_security": {
+      "n_classes": 239,
+      "dependency_pairs": 698,
+      "zero_cost_dependencies": 0,
+      "missing_type_pairs_zero_based": []
+    },
+    "xstream_spl": {
+      "n_classes": 414,
+      "dependency_pairs": 1141,
+      "zero_cost_dependencies": 0,
+      "missing_type_pairs_zero_based": []
+    }
+  },
+  "input_sha256": {
+    "ANT": {
+      "CId_Name.csv": "79cd71072e5c641d7c088ef7f4ca98dea32ba5198694f95ad9ae2a1ed5245d58",
+      "deps_type.csv": "a0acfd6c8ba914efb191ebffee1109cdcaad1e6e98b23cf03698fe83f48483ee",
+      "Couple_List.csv": "105be3d2498cc6023638ee81f7859f42500e6333aa593b7c5180a7f16f3581d5",
+      "stubComplexityMatrix.csv": "84839cb5cd88af82b12a2f293474731a49e6d50f4265fb7a4b152da28b8b3468"
+    },
+    "DNS": {
+      "CId_Name.csv": "5f12ef80439b46b11b27c155e48943474d8af63617cef621656445968ef9207b",
+      "deps_type.csv": "44da15f150b4e2fd657436cc52dfc852ddc6c408082e643d16974d32e40b337f",
+      "Couple_List.csv": "9ce6dddb46b2e57514c8f8055c48fa226d00206b950c843aa57dbfe28b08b737",
+      "stubComplexityMatrix.csv": "f5d872eb27f5c8c7d54bcd9088684158353ee5a908286087881f6cfa38b049cf"
+    },
+    "Email-spl": {
+      "CId_Name.csv": "c71f3b678bf5ce93c931c5409901dd5046841535cbc48a63588705d4a2ea7871",
+      "deps_type.csv": "145ae3bfc780d684d396250296d263b10d28e827e25fa956f38e35e46b5d9f10",
+      "Couple_List.csv": "75c9cddc1d9fc114b46be6554e21daa0d1920351c4631a5de0f9cc346fa581ed",
+      "stubComplexityMatrix.csv": "e222970db3cdd9cad401689752fe9506a8b020f616224b568e4c9d2d4fd8b2af"
+    },
+    "JHotDraw": {
+      "CId_Name.csv": "339d3cc60ee14c84475e66536d6a3e38d2d563b2b6d00f59ec563385ce118981",
+      "deps_type.csv": "d53ea1b24503d7bf2cfcc48b67d5ff32b867b9d562e47b151ba5af8655384238",
+      "Couple_List.csv": "f47cd2dfe3e2e13a354fcb4559f7a2370f40626011e2931910b99a8a71158068",
+      "stubComplexityMatrix.csv": "5a1104374cd562f7c0443f697b9fd5d4ca738906a54bec645a1fe9965de5a986"
+    },
+    "jboss": {
+      "CId_Name.csv": "1107503bc8ae1ae1d65837418a4c6451d3e57e483876dba860e69dc031bb4eda",
+      "deps_type.csv": "438feedb4e789a2a3447c5c41811ca4efbc2abfa78160be9393fa4c9db56dcc1",
+      "Couple_List.csv": "a173a0789a2aa4ada915582d846085a63ada3317750a8daea6c7c2c27cf69e03",
+      "stubComplexityMatrix.csv": "37be9c28b74a18470057f552637bff90e12a0941525bf52f26cb88a121fe5e91"
+    },
+    "jmeter": {
+      "CId_Name.csv": "fbd823f798cac1c2efd9bdeb4c70dc3cab494cfe605fed4dc7e8c2becab7283d",
+      "deps_type.csv": "fe30eccb479a1f5f7d7513f2685d9eb63913640c0c2924ba312fef644cabb058",
+      "Couple_List.csv": "bc22b739b766221d596765b3ca1e4b5d6038bb82a1774d58177f6dff1fd62a9c",
+      "stubComplexityMatrix.csv": "d0c1b0bdf5e738e508d4906bb207c19439526b98b2940808b39b4ba204e87daa"
+    },
+    "xml_security": {
+      "CId_Name.csv": "d32db5383a4189b512f1c220e7f5a7088f1d148e610714ae047455c5623a12ac",
+      "deps_type.csv": "6f765a251ab85b7c79f37bb247ba774e333205f9cb87a7abb3c78efed51b5c94",
+      "Couple_List.csv": "d3dea74189f47132ff19ab16a3724ff2f52486d02f50654fd6c0d95bf1d2880c",
+      "stubComplexityMatrix.csv": "b27fc9cd60208d9ca4c1edc7159f8d5b4f62101fac799554411fd1a56486da63"
+    },
+    "xstream_spl": {
+      "CId_Name.csv": "0786d94a62513a7098075f50fa494aea7763f0f080d612eec73623377c7c57ad",
+      "deps_type.csv": "4a54b04744e270f2964244127323dcba6ef0bfb25e2dd1a00b9c9aacfe963cad",
+      "Couple_List.csv": "f066cb2991d09f30e20a75f108b577f92e9b809d23571bb28857f8a0ddbb9f59",
+      "stubComplexityMatrix.csv": "04962e73b413005b7d586809714e00fe0f363858d46b7adb369db5090427b8c8"
+    }
+  },
+  "source_sha256": {
+    "package_le_traon.py": "0ff00cd3a8a1a6cfe7050c66fa27deb18850485318c35aa61f94116670d86031",
+    "recount_briand_results.py": "86261293540ab2e5bbcd5b6a6684ce82b95a5a8fb4f187fd880281d05ab3bae9",
+    "run_experiments.py": "7f22fd057feb0804e410509976501727ce948e309ad289d79d985b41f0efb0a9",
+    "run_le_traon.py": "f7dc43b9efcb3cbfde46f20c7cc0158c8c34ad0a9cdb6e9f4cf1d53dd495aad4",
+    "run_le_traon_briand.py": "e6c933e1b2265f35b66a2ca6d34b1057513fba58839a9dff36643711e0a04a7d",
+    "graphcito/__init__.py": "4803725b3ba189ba0209e724520848328f77aa664d7dc68d1252a6ce0c1e848e",
+    "graphcito/briand.py": "b4b4b842abf5286ec2e71a92abf766da8a537441b5495b4ccb49f8177e031883",
+    "graphcito/graph_utils.py": "6667898f330bba68f26f3a6a9b100ee442e3e70b1d3e10ddcb5d142cc9edda82",
+    "graphcito/le_traon.py": "3ba36d73473d119109bfab528aea2833b8907605afc0d3ff9ff063c9d3d15779",
+    "graphcito/measure_worker.py": "3b39e82ddd84ffbe811345dba97d9e36bbfa4f76c06583955b68f7fcc7d833f2",
+    "graphcito/measurement.py": "32fa045b1b80441a4dd0eed3c7742518f15defa1bbc0d89ac7fa38ca3b71a16a",
+    "graphcito/memory.py": "a6fdd65c5ec2dc5b11702db9469fb245b20347531955d00ddc19b48c07c13d42",
+    "graphcito/metrics.py": "b21f5d5c2505175340bac0932767d2bb40f512c76a8f72bd7f2bf14399942943",
+    "graphcito/model.py": "f646fad3d866516a6d59675e8b484d9fcc070e6659a80bd1d56993b4877dfc66",
+    "graphcito/tai_daniels.py": "513652c0f884f2e4d3ac88b4e2b761db247e01430f58a6c7b0b8a1bbf29799e2",
+    "graphcito/types.py": "6e97ab2e68f75c1ce6f3752fbc33748a80db3460e357aad1d45eafd4a0521356"
+  },
+  "planned_runs": [
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 810070360902474366
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 15958694826437174921
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 17327322008634570876
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 11803904429770741804
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 13429779807090246871
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 16339857414923756481
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 5934559718369876386
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 15643988654249995548
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 9736919393304417172
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 745294903672190736
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 1149099523573274803
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 10820916012069850549
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 3886405575620318218
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 5275616662983875961
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 987754100044600824
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 2475919778983008586
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 3181631872661426001
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 10491737973891922117
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 12357454145128590202
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 6493631669328195331
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 11447565138204834553
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 11765423890895518689
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 11619197011039712958
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 4022691740705446961
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 7960493676933551894
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 397993563361993503
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 11797552858254636100
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 9015211153772275623
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 17211167496123037694
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "ANT",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 5301267243243856841
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 1144643630945480401
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 5198312740656827962
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 7316246157390812036
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 2641781900887872485
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 4624192464859677597
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 15295827957898609163
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 6601937761275673340
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 432814213475678314
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 525481134598050316
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 16093432246549151710
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 14622448475268276354
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 1890507623209784994
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 8489757704870678519
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 4352530591094769650
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 5982394282558939012
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 877011692471807236
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 14177236545946559430
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 8943515925543103399
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 12312052707896768646
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 5746992931167430661
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 517145430087177903
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 14952048081554335695
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 3652629985325446616
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 7348847121258893972
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 17543677282370485806
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 7209466109979279208
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 9835773034688564701
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 14088337437527814233
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 1268028584368178327
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "DNS",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 16483126224644258903
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 12316546655299968249
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 7887068223518300370
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 9802653421204883839
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 2521181083345590403
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 8711190783934262656
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 16598415383999501535
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 1195228043055244498
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 459526102092867758
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 15815435833462595400
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 689220859298909665
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 6426732168368658817
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 14662565282764795715
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 1828748669588809948
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 8045656470864755261
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 7542033501518477041
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 9689171328538456998
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 4228488516934475188
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 15827607981168694161
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 110967448843943405
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 3995056843411903992
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 5316427635317352776
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 11361304449776244945
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 4679443007679852089
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 547233919658183498
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 1305959747591165965
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 7500664344987893975
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 13850791734765120287
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 4596169457954837651
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 6009834503558707584
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "Email-spl",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 8263017060299362370
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 143119234868881121
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 14738496458212176363
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 16743449406783038695
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 9248924717874075294
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 564213106744149072
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 5186955013672266905
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 17950942707929334270
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 12358129470090436512
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 8904471379848844678
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 3486961542286728012
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 15371862559785468584
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 8715291539022006130
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 3446351677978514937
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 6602272071593820420
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 14308852644885336799
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 14597145153207884740
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 17738342905747604907
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 16881027535484268981
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 7193349726817386789
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 1083787077670591492
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 14982545559586526311
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 4370271320986263744
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 2733446478967941147
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 9364156388636535519
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 5846073167954188698
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 4439908929429609003
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 10025357536887513887
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 11728658547370653529
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 8827159710969576415
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "JHotDraw",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 13995305130135735942
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 6846191766116695303
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 7822594577753151409
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 17501348864156888144
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 9841570541870885781
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 6567859608558805398
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 15190082364225661629
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 5941891252416120993
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 7676217733223668535
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 4247893353135087977
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 5139577380363892165
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 4791259259634128340
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 2140691068296409688
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 1688122028442196016
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 8507264600273849358
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 10965308208013964906
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 2335571538472114331
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 7769094694719923274
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 8720841049589982688
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 4496865111730879410
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 13157320687478517695
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 3511640034694623667
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 4782040079126301643
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 9047789337822729409
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 14387676017212978475
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 6618526946797590974
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 11557955468885715746
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 6224290351820789987
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 15191525154527010700
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 10009111641642087462
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jboss",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 7536131136012620766
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 6129261690294179930
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 8455132122143810707
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 7571923782693040259
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 10148863291507999746
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 1144279527266966104
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 12031136030685770524
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 1369093060078751513
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 15503260515448792908
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 12857689028656300281
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 11106400950872629541
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 10531941000337559713
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 842292211342235443
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 14989242862918961054
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 3721022771918096243
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 1033715137816382745
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 10378272138853991251
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 4802091756520568161
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 9736695498188776239
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 7017009138423280747
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 12833875223403945389
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 3873588832249907047
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 2806265820286576477
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 16286690881016344578
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 12858759607030258444
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 9790030037787199648
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 4596863443780973914
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 915553385531942751
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 565885125526609938
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 14818492174987037807
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "jmeter",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 4010282858286767464
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 14990775756554757360
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 13000948075344431086
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 11130735787388667970
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 18062384545032551421
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 2177886633714440016
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 10182117957045597037
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 6671395737877303885
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 1704415146789801471
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 905056607877802591
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 13750223016800498950
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 10692219812568801493
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 1248802712526074850
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 15699960757668059190
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 7710975496351773780
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 1819897517456148744
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 620732645133433099
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 3693084195161704460
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 15831249352351936336
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 4077260311858600931
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 4251822544969854895
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 13462529295986575635
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 16886428318160971445
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 8201187538095764443
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 16194442317379969682
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 8352505754324605331
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 3156405940124208575
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 7684698717512780733
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 18381765786902895000
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 17481960272841015461
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xml_security",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 14459188601194703505
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 1,
+      "seed": 10290951032515309786
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 2,
+      "seed": 17793901191458434475
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 3,
+      "seed": 6709503121787278110
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 4,
+      "seed": 3263765651731261336
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 5,
+      "seed": 18195682759445358685
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 6,
+      "seed": 4080231472687371434
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 7,
+      "seed": 8857798878697631813
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 8,
+      "seed": 11798444288570346511
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 9,
+      "seed": 12876625583484426260
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 10,
+      "seed": 5511380612274979311
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 11,
+      "seed": 1443779419365030537
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 12,
+      "seed": 7119135385527672100
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 13,
+      "seed": 3252358647089636200
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 14,
+      "seed": 17395449237406697261
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 15,
+      "seed": 9051323513595388200
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 16,
+      "seed": 7957587229796705521
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 17,
+      "seed": 12171501689056568518
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 18,
+      "seed": 6714375069888182710
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 19,
+      "seed": 10081275066143453094
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 20,
+      "seed": 4371991358298096211
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 21,
+      "seed": 1341959813818131059
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 22,
+      "seed": 5593977968520264254
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 23,
+      "seed": 7567483150060970181
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 24,
+      "seed": 3392598734281146749
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 25,
+      "seed": 16052937601089173494
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 26,
+      "seed": 9979667868455092484
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 27,
+      "seed": 6130231382967336315
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 28,
+      "seed": 5025027349983205320
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 29,
+      "seed": 7150687378314719951
+    },
+    {
+      "mode": "ding-compatible",
+      "dataset": "xstream_spl",
+      "algorithm": "le-traon",
+      "run": 30,
+      "seed": 10015978375888873466
+    }
+  ],
+  "mode_definitions": {
+    "briand-full": {
+      "included": [
+        "Ag",
+        "As",
+        "Cp",
+        "Dy",
+        "I",
+        "Unknown",
+        "Us"
+      ],
+      "graph_source": "DependencyMatrix.csv, including all zero-cost edges",
+      "labels_source": "DepsTypeMatrix.csv, original labels retained",
+      "missing_label_policy": "Keep the edge as Unknown; Le Traon does not use labels for selection",
+      "class_ids": "CId_Name.csv uses 1-based IDs; internal indices equal ID - 1",
+      "supported_algorithms": [
+        "le-traon"
+      ],
+      "adapted": false
+    },
+    "matrix-only": {
+      "included": [
+        "Untyped"
+      ],
+      "graph_source": "nonzero cost matrix entries only",
+      "supported_algorithms": [
+        "le-traon"
+      ],
+      "adapted": false,
+      "input_limitation": "zero-cost dependencies and relationship labels cannot be recovered"
+    },
+    "original-static": {
+      "included": [
+        "As",
+        "Ag",
+        "I"
+      ],
+      "tai_briand_breakable": [
+        "As"
+      ],
+      "tai_briand_structural": [
+        "Ag",
+        "I"
+      ],
+      "adapted": false
+    },
+    "ding-compatible": {
+      "included": [
+        "As",
+        "Ag",
+        "I",
+        "Dy"
+      ],
+      "tai_briand_primary_breakable": [
+        "As",
+        "Dy"
+      ],
+      "tai_briand_structural": [
+        "Ag",
+        "I"
+      ],
+      "fallback_relaxation": [
+        "Ag"
+      ],
+      "fallback_policy": "only when a structural cycle remains; I is never relaxed",
+      "adapted": true
+    }
+  },
+  "completed_runs": 240
+}

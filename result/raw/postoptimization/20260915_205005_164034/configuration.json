@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-15T20:50:05.164411+08:00",
+  "settings": {
+    "input_root": "/root/CITO/ExperimentalDataProcessing/30_runs/Ding",
+    "dataset_root": "/root/CITO/CITOAlgorithm/Dataset/Ding",
+    "output_dir": "/root/CITO/ExperimentalDataProcessing/RQ3",
+    "projects": null,
+    "algorithms": [
+      "Sequential"
+    ],
+    "run_ids": null,
+    "expected_runs": 30,
+    "window_size": 10,
+    "warmup_runs": 1,
+    "worker_timeout": 300.0
+  },
+  "sources_sha256": {
+    "ANT/ANT_Sequential.csv": "60fa4a3e501beaaab15c562938da6b6396cfc787dac8abd286104846fe86ce1d",
+    "DNS/DNS_Sequential.csv": "03aea8457eba3440f7d875af7d230947227b1a919d859d6dccf8614e7a0bbdd6",
+    "Email-spl/Email-spl_Sequential.csv": "e129b7bd005e055c11ed17cd005ed6bd1b00e7b50b0622604ad4e29a16a9ef76",
+    "JHotDraw/JHotDraw_Sequential.csv": "3c74e2f357454d716ab09d54c0a046e950deb6481c14d7407408497cf8dcd8d4",
+    "jboss/jboss_Sequential.csv": "dc1d0426eafbe3b36a4170b26969106b5c7730ce4dcb9c56af55bd2d3eaf2f2d",
+    "jmeter/jmeter_Sequential.csv": "cf35d5866067d2c5f6b1a4ac67265b049ce2c39d7db447fb77c8611f09d83cf4",
+    "xml_security/xml_security_Sequential.csv": "04a457f26f55b5e9015805ba0ab7b3f722194ccf772f6faef5096cbe5a9a067a",
+    "xstream_spl/xstream_spl_Sequential.csv": "4446779cfc6db8e623a58309c0a96ab5f6822224f1c54735362dd5f835e32fa1"
+  },
+  "matrices": {
+    "ANT": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/ANT",
+      "n_classes": 25,
+      "sha256": {
+        "StubComplexityMatrix.csv": "ca45b504bcd22ef6e4ccb61ae4e11634758b57080287cadcf634ae9690d4ddb7",
+        "DependencyMatrix.csv": "46d6ccece433474f7ecf20bf7227601856b9fab20244e36b4f7b156e323edf02"
+      }
+    },
+    "DNS": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/DNS",
+      "n_classes": 61,
+      "sha256": {
+        "StubComplexityMatrix.csv": "1f5b4efe0b989cf03f10ebccb1294cf4f00dc723293cbf53941fb2cdcb26053e",
+        "DependencyMatrix.csv": "3b2e941868162c2eedd9b975eb12b0446960dcc4356caf25ef41f3a7dbc4f53c"
+      }
+    },
+    "Email-spl": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/Email-spl",
+      "n_classes": 39,
+      "sha256": {
+        "StubComplexityMatrix.csv": "56e0d8a8106d31146b1ba594123f47fb3f96420389409b5b808fc732565996ea",
+        "DependencyMatrix.csv": "f8ddb13525183e4e776f8893622fa3cca80a944674ae4f1f327bfe0300f582ab"
+      }
+    },
+    "JHotDraw": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/JHotDraw",
+      "n_classes": 411,
+      "sha256": {
+        "StubComplexityMatrix.csv": "c181ae0ece51d4e330230e0d19adee97cab4d819d70c2c4294ee72731953fb0c",
+        "DependencyMatrix.csv": "6dd972807bd13706693e58ccaa6d5ade2f491e7be0363c3221272992de99adb4"
+      }
+    },
+    "jboss": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/jboss",
+      "n_classes": 91,
+      "sha256": {
+        "StubComplexityMatrix.csv": "902808e46251c465d82969a210956daff1797e05f2545e04402231631e32dfa8",
+        "DependencyMatrix.csv": "309d6389ddc23f35ac98780b9722fabb059633ffad6e7011417614b9e592a64c"
+      }
+    },
+    "jmeter": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/jmeter",
+      "n_classes": 372,
+      "sha256": {
+        "StubComplexityMatrix.csv": "f323d549d655c8d41e0a75eef1911257ff0cd4e0dc24f4b567cb30f275ee37db",
+        "DependencyMatrix.csv": "981a81456068fbc1adcae267b9190c628877735d97ca06b561fb08f0e4f26cc9"
+      }
+    },
+    "xml_security": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/xml_security",
+      "n_classes": 239,
+      "sha256": {
+        "StubComplexityMatrix.csv": "8fd3711ec9d2211496f5aebfce8354a6b32cfaec77daa4ab8c61c5e77b9919ba",
+        "DependencyMatrix.csv": "0598b59ea80d75adb64cac9e553678350d51993e110f05275695f88a74dff805"
+      }
+    },
+    "xstream_spl": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/xstream_spl",
+      "n_classes": 414,
+      "sha256": {
+        "StubComplexityMatrix.csv": "04f8ff08445b0b1ba585a1aa782c7365bc63b33acadf40bb79b160b56539f66c",
+        "DependencyMatrix.csv": "49a04e7248dc22735dae9ec81e605cd2302a5bb89b948dbbf337e62ed81bdb15"
+      }
+    }
+  },
+  "code_sha256": {
+    "run_rq3.py": "8022f02d94d0ba2ba357434dc4713ada8aa4a59e25968ab261566d09c002ac92",
+    "run_experiments.py": "6bb0bde9c495b14125b2867b9dac72e2d4fbd011344e8babc408a4aa90646c8c",
+    "experiment_worker.py": "4f30bd190b4b806d1a2cb8e087373ce435a2c14dc182fe4b641160db9617565c",
+    "Dijkstra_SW.py": "78e7f7277d659fbaabc427af365c768e8e07085154fdc0d58245f3cd653e9b36",
+    "SPCITO.py": "5a6a81664728754fb7211a5bc9ea2b38c4c7b91abff9187489e180087331df96",
+    "SPGreedy.py": "f0c4049639f9cb27aff1efab662528c4139dd9b0d62dd5e0df87761c34cf8c29",
+    "SPDijkstra.py": "ade77de99b8bceb079d0e8406af5d2e1fe672584e52a4d05c30b4032a254a981",
+    "peak_memory.py": "0dc783fcdaf1a7dce01211337c82b944ee46f3c0c77fd3a09e090c18e0ce7282"
+  },
+  "environment": {
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "numpy": "2.3.2",
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "hostname": "autodl-container-8b78499521-2aceade7",
+    "logical_cpu_count": 128,
+    "worker_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "PYTHONHASHSEED": "0",
+      "PYTHONIOENCODING": "utf-8",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    }
+  },
+  "planned_runs": 240,
+  "completed": true,
+  "finished": true,
+  "postprocessor": "SW-SPDijkstra",
+  "stride": 1,
+  "sweeps": 1,
+  "rng": "Postprocessor is deterministic; internal seed 0 is unused. InitialSeed is retained only if present in source CSV.",
+  "timing_scope": "Optimization only, including window construction/search/update and internal validation; excludes input loading, initial generation, warmup, independent cost/stub evaluation, hashing, memory readout, logging and output.",
+  "memory_scope": "Fresh worker process peak RSS through result preparation/readout; includes interpreter, matrices, warmup and evaluation, not exclusive auxiliary memory. Never added to initial-method memory.",
+  "memory_unit": "MiB (1048576 bytes)",
+  "time_unit": "ms",
+  "rounding_tolerance": {
+    "rel_tol": 1e-10,
+    "abs_tol": 1e-09
+  },
+  "summary": "Means and sample standard deviations of successful source-run pairs; reduction is relative reduction of means. Check counts for incomplete batches.",
+  "naming": "Project/Project_InitialAlgorithm+.csv; Algorithm=InitialAlgorithm+; initial SPGreedy+ is excluded.",
+  "successful_runs": 240,
+  "failed_runs": 0,
+  "pending_runs": 0,
+  "interrupted": false,
+  "updated_at": "2026-09-15T20:59:19.064865+08:00"
+}

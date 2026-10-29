@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-14T19:51:58.722785+08:00",
+  "settings": {
+    "input_root": "/root/CITO/ExperimentalDataProcessing/30_runs/Ding",
+    "dataset_root": "/root/CITO/CITOAlgorithm/Dataset/Ding",
+    "output_dir": "/root/CITO/ExperimentalDataProcessing/RQ3",
+    "projects": null,
+    "algorithms": null,
+    "run_ids": null,
+    "expected_runs": 30,
+    "window_size": 10,
+    "warmup_runs": 1,
+    "worker_timeout": 300.0
+  },
+  "sources_sha256": {
+    "ANT/ANT_A2C.csv": "cfec541ca81f5a7245ba0459af6cfc044c251d0c71a9185c7ec1627b215eb514",
+    "ANT/ANT_DQN.csv": "ec6dcf4fd5834e3392b10ca801a1301c149611501446c992f28b80c8243f6b38",
+    "ANT/ANT_GA.csv": "ff6f9d326ff44cc7eb89c5f83a8fd0c1a63e0ea10ecefa8e79fe8a10725b0b32",
+    "ANT/ANT_LeTraon.csv": "17b18b4327a247c20937a325659279fcf17b6522ef359ffe332838371dcb3cf3",
+    "ANT/ANT_PPO.csv": "c919f33763ed5c1449a610a86321451caa14c7f14a693686aa416e1cafd1d132",
+    "ANT/ANT_PSO.csv": "3d924964be4e6e3bd86869c17a3fd56f63fda3c0242f61fee05ed2d1cf036923",
+    "ANT/ANT_RIA.csv": "1bb1f9524b3d2bf741f50634edf14f3d9d6978a0b7e4d2ba805ab71d739e2e70",
+    "ANT/ANT_SPGreedy.csv": "b2c50f1e362f9f90c91c47eabd1af9e7596d629f73346cbf2062ce51be5a4ae3",
+    "DNS/DNS_A2C.csv": "80279b198df30ac89b797151bc932f41e0cbbc95ca0f67a2d4fa7bc3f6bb61fa",
+    "DNS/DNS_DQN.csv": "9abbde27f1b3908f950135a5d8f407100442c1f5b482371de5f9b861636e1b36",
+    "DNS/DNS_GA.csv": "016419422ec1fb22f27a4170c147ef7e86212f5b54924194a90992c9d99f0836",
+    "DNS/DNS_LeTraon.csv": "e5caf9f4a02ce56a589a52bc4640cda2e8e3c1f212e5fd5587f7159b3c59d9b5",
+    "DNS/DNS_PPO.csv": "e773c08a331467604ab1db5690723afe54ecd4c63987eed48898a43aa8ce5846",
+    "DNS/DNS_PSO.csv": "483cf75492671840974999010a21f087f066699b3f733868cf43fc298d7ae99a",
+    "DNS/DNS_RIA.csv": "908d301bd8b03cdfe1235ef5d1301d415c46c6583ccef98f2353b0f7d93fa71e",
+    "DNS/DNS_SPGreedy.csv": "ac8549ce0e839b20622981af54a79bc85b0f0eb8dd7200a83c3b0dbceae88edb",
+    "Email-spl/Email-spl_A2C.csv": "f386c114675fb9a1ddf97c888db6ca0c0c8a696ed27fbb3596f7a3e7ca4b7787",
+    "Email-spl/Email-spl_DQN.csv": "28e43fcf1c0cdc187a50946e7f63dd2518ba2863585956f8177eeb65154a5379",
+    "Email-spl/Email-spl_GA.csv": "3810aeb06bcd8c306119f0f0cc5d2c86960d4d5e9590abe63f231f2f1ea273ee",
+    "Email-spl/Email-spl_LeTraon.csv": "b54ff4729e1694c36758ae7f04a33b94af981aed89684805c9e7006075cbf3de",
+    "Email-spl/Email-spl_PPO.csv": "68f98b000dbfcb9237096870a65da78c39e846ce9a93aeb4e6952cb5b712b025",
+    "Email-spl/Email-spl_PSO.csv": "7a89bd889b45ede307de188650428f64cb60ab2073036c06eee5452906b270bd",
+    "Email-spl/Email-spl_RIA.csv": "743303138fabc214b65ec53bb462953343010e185d0bfc0905b7a67921cf62ce",
+    "Email-spl/Email-spl_SPGreedy.csv": "9af940c6378b4e0b7cc5c839a95c2da55af9601c63dff7d57fbd7c5b794edeb6",
+    "JHotDraw/JHotDraw_A2C.csv": "4c4f7b54d68c16921a43c3575230e9b46e6eb5c794d70119853ef5662aeaa3df",
+    "JHotDraw/JHotDraw_DQN.csv": "34f484fdbb7683eb972eff9302f70f74acbb421b2deb2f605ce383ead0c9efad",
+    "JHotDraw/JHotDraw_GA.csv": "42cd36f66a7fdfbc35f5e174f7b54a49bf1e8c61cfc7306a4b14d29d3731488a",
+    "JHotDraw/JHotDraw_LeTraon.csv": "0da14fd0aebee4b32259cfdf3f84bea785598b4e3a1f015987e0d3af931c13b6",
+    "JHotDraw/JHotDraw_PPO.csv": "eabc54828fe6e62e22c2f5dc5eec9415b02d102edbed42ca9ce4f17c9bbc2e41",
+    "JHotDraw/JHotDraw_PSO.csv": "6228de7ae65be410ec7d9d7ac7aa5dc2175f85af3ab87380214f7d28ae6f95f6",
+    "JHotDraw/JHotDraw_RIA.csv": "551ef5954637a4ed124bfc480fe64851ead87c1887e1355562f3d624c5678aa4",
+    "JHotDraw/JHotDraw_SPGreedy.csv": "bd2ff3ef4dfc86cd5f0b531f03e452eef400bbb4185a5f5d54107b05cc5eac24",
+    "jboss/jboss_A2C.csv": "435605aeac2b4f4b33fc237a5c5327122efba06fee0a0a7ad8d1a075a9ac175a",
+    "jboss/jboss_DQN.csv": "185af624dbba22747225cb276592db19c569e7a6c153b3f567ab1eddaa22f7e2",
+    "jboss/jboss_GA.csv": "429ac17258634550cfa9db4cb67d4109f16e8fdbdfb3276333829f425ba2099f",
+    "jboss/jboss_LeTraon.csv": "770377d668ec78cdf139fb12ea1d40fe439ed7c7fa936d0ddcf31cbdaf88cc3a",
+    "jboss/jboss_PPO.csv": "2addfd1d5cd955479be899182cf885bc6a6d12e98d45b2722785088d5bbf3a13",
+    "jboss/jboss_PSO.csv": "120131dec7fdf261c6d0e88f46356b4db4df423f9b319df10e5a26873701a68c",
+    "jboss/jboss_RIA.csv": "200ac357c941b6e711102278a3bca66c59cca054e9216a7d24280ad93dec3013",
+    "jboss/jboss_SPGreedy.csv": "3d9705a80ba51fcb68fc90110b66085fde0afec3bcd6390d2cd24587af633607",
+    "jmeter/jmeter_A2C.csv": "9ebda7911e248e6fa71639dc3956d84bbb54af21875ce7545659dfa2e45715bc",
+    "jmeter/jmeter_DQN.csv": "fc77bed2f241132230d122a395883b08766a5970796a631f20d820cd50453ef3",
+    "jmeter/jmeter_GA.csv": "b10af7f4f695ade4066c66662ea97feff8e809019b636ddb491c74f2971b31b3",
+    "jmeter/jmeter_LeTraon.csv": "85bde335690e7d06f86dba6a7080fd359e6e80f72aacc42460410ea0ab8f9e9f",
+    "jmeter/jmeter_PPO.csv": "cbedb5bac3ad2abe5a17f1a261acdebb65852aa627634aa44fba40489c326995",
+    "jmeter/jmeter_PSO.csv": "4a497e3c2aedb8699d5b5e103992fa2201622f063b7a0cf92897ca5d858940d0",
+    "jmeter/jmeter_RIA.csv": "0603804d553ee5cffaf9c7307453c4dd7a7f902aa43d162e99598e055487dd3a",
+    "jmeter/jmeter_SPGreedy.csv": "8387fb07ba23833a6af215e546741ed12bda3ef77e7565c4fdf922729dd086ee",
+    "xml_security/xml_security_A2C.csv": "506de34c68f9774f3022506dd500e18438b9b59148c7e325a9c06b49a0450436",
+    "xml_security/xml_security_DQN.csv": "0a542af0cc38cef4f281d364387a33c982af93473d51bd0d3bbd67084549f076",
+    "xml_security/xml_security_GA.csv": "64e244a3ac1b97a29775301bbd1d860955ce5f0e7b4bade9b9681dfeaf66d322",
+    "xml_security/xml_security_LeTraon.csv": "eccefc24d80b26a9807f9d9026e3d3381a891f9b386f9a9975e3ac48de43bc2c",
+    "xml_security/xml_security_PPO.csv": "7d596a8bd61e794d50c4593fd0c41bde868b5ef6d7cfc4464dbd96d918276e3c",
+    "xml_security/xml_security_PSO.csv": "80647cc198185b674fd6407643e2cd7ade16c4e326de4de95cc15ff846525b78",
+    "xml_security/xml_security_RIA.csv": "d943d6bfc7b906180bcb749176007a8cd548491a42148969a4dc0f45cfa57d49",
+    "xml_security/xml_security_SPGreedy.csv": "092b5f636346e1bbc5d98510bda832ebfccfc6bb821c3803a4a26042fe224024",
+    "xstream_spl/xstream_spl_A2C.csv": "7fec0c29200c8a15b35ddb69487909a33c4a9adcf5400fc386783da65869d165",
+    "xstream_spl/xstream_spl_DQN.csv": "0bc0d2226e85e6af7f3067eac971ac2ada3a940d20acbaa30a6c2113c13e7a86",
+    "xstream_spl/xstream_spl_GA.csv": "9b227b65c6865354d0f5a44b0e6ad6064cdae33f5946cf5a287e254197b786bf",
+    "xstream_spl/xstream_spl_LeTraon.csv": "67ff09a2eee06407ab99cd2f5f5a16ae2a0d510c2db871aaa41391f6845e412a",
+    "xstream_spl/xstream_spl_PPO.csv": "62bcc029430be5efeda837ac761a113c8c4ac887c6b14e56104174d9ce98cdee",
+    "xstream_spl/xstream_spl_PSO.csv": "09752677a8877d1064c5929242bf2e2e26a2a57ce1d686834a781674a02b7d0c",
+    "xstream_spl/xstream_spl_RIA.csv": "6a0fcbd33a5e912de345abd22da5837bd2b3ca2962d053d2b37b0265153e617a",
+    "xstream_spl/xstream_spl_SPGreedy.csv": "efc86e5c2ee1fcaff26470c849edca0a1b8c9c9636d67d9ed1f2ea9c9baa99cf"
+  },
+  "matrices": {
+    "ANT": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/ANT",
+      "n_classes": 25,
+      "sha256": {
+        "StubComplexityMatrix.csv": "ca45b504bcd22ef6e4ccb61ae4e11634758b57080287cadcf634ae9690d4ddb7",
+        "DependencyMatrix.csv": "46d6ccece433474f7ecf20bf7227601856b9fab20244e36b4f7b156e323edf02"
+      }
+    },
+    "DNS": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/DNS",
+      "n_classes": 61,
+      "sha256": {
+        "StubComplexityMatrix.csv": "1f5b4efe0b989cf03f10ebccb1294cf4f00dc723293cbf53941fb2cdcb26053e",
+        "DependencyMatrix.csv": "3b2e941868162c2eedd9b975eb12b0446960dcc4356caf25ef41f3a7dbc4f53c"
+      }
+    },
+    "Email-spl": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/Email-spl",
+      "n_classes": 39,
+      "sha256": {
+        "StubComplexityMatrix.csv": "56e0d8a8106d31146b1ba594123f47fb3f96420389409b5b808fc732565996ea",
+        "DependencyMatrix.csv": "f8ddb13525183e4e776f8893622fa3cca80a944674ae4f1f327bfe0300f582ab"
+      }
+    },
+    "JHotDraw": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/JHotDraw",
+      "n_classes": 411,
+      "sha256": {
+        "StubComplexityMatrix.csv": "c181ae0ece51d4e330230e0d19adee97cab4d819d70c2c4294ee72731953fb0c",
+        "DependencyMatrix.csv": "6dd972807bd13706693e58ccaa6d5ade2f491e7be0363c3221272992de99adb4"
+      }
+    },
+    "jboss": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/jboss",
+      "n_classes": 91,
+      "sha256": {
+        "StubComplexityMatrix.csv": "902808e46251c465d82969a210956daff1797e05f2545e04402231631e32dfa8",
+        "DependencyMatrix.csv": "309d6389ddc23f35ac98780b9722fabb059633ffad6e7011417614b9e592a64c"
+      }
+    },
+    "jmeter": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/jmeter",
+      "n_classes": 372,
+      "sha256": {
+        "StubComplexityMatrix.csv": "f323d549d655c8d41e0a75eef1911257ff0cd4e0dc24f4b567cb30f275ee37db",
+        "DependencyMatrix.csv": "981a81456068fbc1adcae267b9190c628877735d97ca06b561fb08f0e4f26cc9"
+      }
+    },
+    "xml_security": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/xml_security",
+      "n_classes": 239,
+      "sha256": {
+        "StubComplexityMatrix.csv": "8fd3711ec9d2211496f5aebfce8354a6b32cfaec77daa4ab8c61c5e77b9919ba",
+        "DependencyMatrix.csv": "0598b59ea80d75adb64cac9e553678350d51993e110f05275695f88a74dff805"
+      }
+    },
+    "xstream_spl": {
+      "directory": "/root/CITO/CITOAlgorithm/Dataset/Ding/xstream_spl",
+      "n_classes": 414,
+      "sha256": {
+        "StubComplexityMatrix.csv": "04f8ff08445b0b1ba585a1aa782c7365bc63b33acadf40bb79b160b56539f66c",
+        "DependencyMatrix.csv": "49a04e7248dc22735dae9ec81e605cd2302a5bb89b948dbbf337e62ed81bdb15"
+      }
+    }
+  },
+  "code_sha256": {
+    "run_rq3.py": "8022f02d94d0ba2ba357434dc4713ada8aa4a59e25968ab261566d09c002ac92",
+    "run_experiments.py": "6bb0bde9c495b14125b2867b9dac72e2d4fbd011344e8babc408a4aa90646c8c",
+    "experiment_worker.py": "4f30bd190b4b806d1a2cb8e087373ce435a2c14dc182fe4b641160db9617565c",
+    "Dijkstra_SW.py": "78e7f7277d659fbaabc427af365c768e8e07085154fdc0d58245f3cd653e9b36",
+    "SPCITO.py": "5a6a81664728754fb7211a5bc9ea2b38c4c7b91abff9187489e180087331df96",
+    "SPGreedy.py": "f0c4049639f9cb27aff1efab662528c4139dd9b0d62dd5e0df87761c34cf8c29",
+    "SPDijkstra.py": "ade77de99b8bceb079d0e8406af5d2e1fe672584e52a4d05c30b4032a254a981",
+    "peak_memory.py": "0dc783fcdaf1a7dce01211337c82b944ee46f3c0c77fd3a09e090c18e0ce7282"
+  },
+  "environment": {
+    "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+    "numpy": "2.3.2",
+    "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "hostname": "autodl-container-8b78499521-2aceade7",
+    "logical_cpu_count": 128,
+    "worker_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "PYTHONHASHSEED": "0",
+      "PYTHONIOENCODING": "utf-8",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    }
+  },
+  "planned_runs": 1920,
+  "completed": true,
+  "finished": true,
+  "postprocessor": "SW-SPDijkstra",
+  "stride": 1,
+  "sweeps": 1,
+  "rng": "Postprocessor is deterministic; internal seed 0 is unused. InitialSeed is retained only if present in source CSV.",
+  "timing_scope": "Optimization only, including window construction/search/update and internal validation; excludes input loading, initial generation, warmup, independent cost/stub evaluation, hashing, memory readout, logging and output.",
+  "memory_scope": "Fresh worker process peak RSS through result preparation/readout; includes interpreter, matrices, warmup and evaluation, not exclusive auxiliary memory. Never added to initial-method memory.",
+  "memory_unit": "MiB (1048576 bytes)",
+  "time_unit": "ms",
+  "rounding_tolerance": {
+    "rel_tol": 1e-10,
+    "abs_tol": 1e-09
+  },
+  "summary": "Means and sample standard deviations of successful source-run pairs; reduction is relative reduction of means. Check counts for incomplete batches.",
+  "naming": "Project/Project_InitialAlgorithm+.csv; Algorithm=InitialAlgorithm+; initial SPGreedy+ is excluded.",
+  "successful_runs": 1920,
+  "failed_runs": 0,
+  "pending_runs": 0,
+  "interrupted": false,
+  "updated_at": "2026-09-14T21:55:01.755206+08:00"
+}

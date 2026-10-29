@@ -1,0 +1,2 @@
+﻿Run,Project,Algorithm,CITO,Ocplx,SStubs,RuntimeMs,PeakRSSMiB,Seed,Status,NClasses,WindowSize,RuntimeNs,SPGreedyRuntimeNs,SWRuntimeNs,SPGreedyRuntimeMs,SWRuntimeMs,InitialCITO,InitialOcplx,InitialSStubs,OcplxReduction,SStubsReduction,PeakRSSSource,WorkerPid,WarmupRuns,Error
+1,ANT,SW-SPDijkstra,"[11,2,4,14,3,5,0,9,15,21,18,23,19,20,1,6,7,8,10,13,22,17,24,12,16]",3.95,28,374.709431,35.23046875,18170599372457133965,success,25,14,374709431,,374709431,,374.709431,"[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]",10.88,41,6.930000000000001,13,LinuxVmHWM,2435,1,
